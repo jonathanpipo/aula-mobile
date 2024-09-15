@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">aposentadoria2</string>
+    <string name="calcular">Calcular</string>
+    <string name="tempo_de_contribuicao">Tempo de Contribuicao</string>
+    <string name="genero">Genero:</string>
+    <string name="idade">Idade</string>
+    <string name="nome">Nome</string>
+</resources>

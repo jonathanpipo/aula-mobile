@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16161F"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="411dp"
+        android:layout_marginStart="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/idNome"
+            android:layout_width="292dp"
+            android:layout_height="48dp"
+            android:autofillHints="name"
+            android:background="#E2E4E4"
+            android:ems="10"
+            android:hint="nome"
+            android:importantForAutofill="yes"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/idIdade"
+            android:layout_width="292dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints="age"
+            android:background="#E2E4E4"
+            android:ems="10"
+            android:hint="idade"
+            android:importantForAutofill="yes"
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/idGenero"
+            android:layout_width="292dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints="gender"
+            android:background="#E2E4E4"
+            android:ems="10"
+            android:hint="genero: 'masculino' ou 'feminino'"
+            android:importantForAutofill="yes"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/idTempoContribuicao"
+            android:layout_width="292dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center|clip_vertical"
+            android:layout_marginTop="15dp"
+            android:autofillHints="contributionTime"
+            android:background="#E2E4E4"
+            android:ellipsize="none"
+            android:ems="10"
+            android:hint="tempo de contribuicao"
+            android:importantForAutofill="yes"
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="292dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="#E2E4E4"
+            android:text="@string/calcular"
+            android:textAllCaps="true"
+            android:textColor="#111111"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
